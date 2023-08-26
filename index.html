@@ -10,13 +10,14 @@
 
         <style>
             body {
-                background-color: #4c07bb;
-                background-image: url('');
+                background-color: #f49401;
             }
 
             .topnav {
-                background: #4c07bb;
+                background: #f49401;
                 overflow: hidden;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             .topnav a {
@@ -30,9 +31,87 @@
             }
             
             .topnav a:hover {
-                background-color: #6612ed;
+                background-color: #ff9900;
                 color: rgb(255, 255, 255);
             }
+
+            h1 {
+                color: white;
+                font-family: 'Geologica', sans-serif;
+                text-align: center;
+                margin-top: 3%
+            }
+
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            .button {
+                background-color: #dd8500;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+            }
+
+            .button-5 {
+                align-items: center;
+                background-clip: padding-box;
+                background-color: #fa6400;
+                border: 1px solid transparent;
+                border-radius: .25rem;
+                box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+                box-sizing: border-box;
+                color: #fff;
+                cursor: pointer;
+                display: inline-flex;
+                font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                justify-content: center;
+                line-height: 1.25;
+                margin: 0;
+                min-height: 3rem;
+                padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+                position: relative;
+                text-decoration: none;
+                transition: all 250ms;
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+                vertical-align: baseline;
+                width: 200px;
+                }
+
+                .button-5:hover,
+                .button-5:focus {
+                background-color: #e47428;
+                box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+                }
+
+                .button-5:hover {
+                transform: translateY(-1px);
+                }
+
+                .button-5:active {
+                background-color: #c85000;
+                box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+                transform: translateY(0);
+                }
+
+                a:link {
+                    text-decoration: none;
+                }
+
+                a:visited{
+                    color: rgb(255, 255, 255) 
+                }
         </style>
     </head>
 
@@ -43,7 +122,26 @@
             <a href="#contact">Contact Us</a>
         </div>
 
-        <h1>Donate to Refugee</h1>
+        <section id="home">
+            <h1>Donate to Refugee</h1>
+            <img src="refugee.jpg"></img>
+            <center style="margin-top: 2%;"><button class="button-5" role="button"><a href="https://donate.unhcr.org/int/en/general">Donate Today</a></button></center>
+        </section>
+
+        <section id="about">
+            <p>In a world marked by uncertainty and upheaval, the plight of refugees stands as a testament to the resilience of the human spirit. Every day, countless individuals and families are forced to flee their homes due to conflict, persecution, and unimaginable hardships. These refugees, driven by hope for a safer future, embark on treacherous journeys, leaving behind everything they know and love.
+
+                Now, more than ever, our support can make a profound difference. By extending a helping hand through donations, we have the power to provide not only immediate relief but also the promise of a brighter tomorrow. Every contribution, no matter how small, ripples with impact, enabling organizations on the ground to provide crucial essentials such as food, clean water, shelter, and medical care.
+                
+                But our assistance goes beyond the tangible. By donating, we send a powerful message of solidarity, compassion, and unity. We stand together, transcending borders and differences, to remind those in need that they are not alone. Our support helps restore dignity, rebuild lives, and foster a sense of belonging that transcends the challenges faced.
+                
+                In this ongoing humanitarian crisis, let us be the beacon of hope that guides these refugees toward a better future. Your donation is not just financial assistance; it's a lifeline of empathy, a testament to our shared humanity. By joining hands and hearts, we can rewrite the narratives of countless lives and be a source of inspiration for generations to come. Donate today, and let's create a world where compassion knows no boundaries and refuge is synonymous with hope.
+            </p>
+        </section>
+
+        <section id="contact">
+
+        </section>
     </body>
 
 </html>
